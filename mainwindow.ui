@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Программа для преобразования текстовых файлов в .DOC</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="verticalLayoutWidget">
@@ -29,14 +29,14 @@
        <item>
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>Input Folder Is Not Set</string>
+          <string>Папка для текстовых файлов не указана!</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton">
          <property name="text">
-          <string>Select Input Folder</string>
+          <string>Выбрать папку для текстовых файлов</string>
          </property>
         </widget>
        </item>
@@ -47,14 +47,14 @@
        <item>
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>Output Folder Is Not Set</string>
+          <string>Папка для сохранения .DOC файлов не указана!</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_2">
          <property name="text">
-          <string>Select Output Folder</string>
+          <string>Выбрать папку для .DOC файлов</string>
          </property>
         </widget>
        </item>
@@ -63,7 +63,7 @@
      <item>
       <widget class="QPushButton" name="pushButton_3">
        <property name="text">
-        <string>Decrypt</string>
+        <string>Преобразовать</string>
        </property>
       </widget>
      </item>

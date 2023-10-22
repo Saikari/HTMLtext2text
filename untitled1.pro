@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui concurrent gui widgets network concurrent
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    html_coder.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    html_coder.hpp
 
 FORMS += \
     mainwindow.ui
